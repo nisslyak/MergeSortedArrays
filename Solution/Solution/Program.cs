@@ -2,7 +2,6 @@
 {
     public static int[] Merge(int[] nums1, int m, int[] nums2, int n)
     {
-
         var index = 0;
 
         if (nums2.Count() !=0)
@@ -16,7 +15,6 @@
                 }
             }
         }
-
 
         Array.Sort(nums1);
 
